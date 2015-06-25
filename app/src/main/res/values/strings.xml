@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ReelyHotSpot</string>
+    <string name="advertise">Advertise</string>
+    <string name="scan">Scan</string>
+    <string name="default_beacon_identifier">8100ff</string>
+    <string name="beacon_identifier_label">Beacon identifier</string>
+    <string name="beacon_identifier_preamble">001bc50940</string>
 </resources>
