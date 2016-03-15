@@ -1,11 +1,8 @@
 package com.reelyactive.model;
 
 public class Identifier {
-
-    private String type = "";
-    private String value = "";
-    private AdvHeader advHeader = new AdvHeader();
-    private AdvData advData = new AdvData();
+    private String type;
+    private String value;
 
     /**
      * @return The type
@@ -35,32 +32,5 @@ public class Identifier {
         this.value = value;
     }
 
-    /**
-     * @return The advHeader
-     */
-    public AdvHeader getAdvHeader() {
-        return advHeader;
-    }
-
-    /**
-     * @param advHeader The advHeader
-     */
-    public void setAdvHeader(AdvHeader advHeader) {
-        this.advHeader = advHeader;
-    }
-
-    /**
-     * @return The advData
-     */
-    public AdvData getAdvData() {
-        return advData;
-    }
-
-    /**
-     * @param advData The advData
-     */
-    public void setAdvData(AdvData advData) {
-        this.advData = advData;
-    }
 
 }

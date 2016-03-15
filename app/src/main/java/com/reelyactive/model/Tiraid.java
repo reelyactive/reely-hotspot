@@ -1,27 +1,25 @@
 package com.reelyactive.model;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Tiraid {
 
-    private Identifier identifier = new Identifier();
+    private Adva48Identifier identifier = new Adva48Identifier();
     private String timestamp = "";
     private List<RadioDecoding> radioDecodings = new ArrayList<RadioDecoding>();
 
     /**
      * @return The identifier
      */
-    public Identifier getIdentifier() {
+    public Adva48Identifier getIdentifier() {
         return identifier;
     }
 
     /**
      * @param identifier The identifier
      */
-    public void setIdentifier(Identifier identifier) {
+    public void setIdentifier(Adva48Identifier identifier) {
         this.identifier = identifier;
     }
 

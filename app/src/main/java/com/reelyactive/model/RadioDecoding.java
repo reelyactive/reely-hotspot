@@ -1,9 +1,8 @@
 package com.reelyactive.model;
 
 public class RadioDecoding {
-
     private long rssi = 0;
-    private Identifier identifier = new Identifier();
+    private Identifier identifier = new Eui64Identifier();
 
     /**
      * @return The rssi

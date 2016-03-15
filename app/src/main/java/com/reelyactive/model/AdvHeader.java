@@ -1,39 +1,8 @@
 package com.reelyactive.model;
 
 public class AdvHeader {
-
-    private String type = "";
-    private long length = 0;
     private String txAdd = "random";
-    private String rxAdd = "public";
-
-    /**
-     * @return The type
-     */
-    public String getType() {
-        return type;
-    }
-
-    /**
-     * @param type The type
-     */
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    /**
-     * @return The length
-     */
-    public Long getLength() {
-        return length;
-    }
-
-    /**
-     * @param length The length
-     */
-    public void setLength(Long length) {
-        this.length = length;
-    }
+    private String rxAdd = "random";
 
     /**
      * @return The txAdd
